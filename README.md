@@ -7,8 +7,6 @@ Rust, C#, Python, Java などの言語を習得済みのエンジニアが、**�
 ## 🚀 クイックスタート (実行方法)
 
 ```powershell
-cd C:\Users\harun\programming\go\sample
-
 # 全モジュールを一括実行
 go run main.go
 
