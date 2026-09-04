@@ -61,11 +61,11 @@ go run ./04_lambdas_and_closures/
 
 | ディレクトリ | テーマ | 主な学習内容 |
 | :--- | :--- | :--- |
-| [`./01_basics`](file:///C:/Users/harun/programming/go/sample/01_basics/main.go) | **基本構文・型・関数** | 変数宣言3パターン、多値返却、`for` ループ、スライス vs 配列、`map`、ポインタと値渡し |
-| [`./02_errors`](file:///C:/Users/harun/programming/go/sample/02_errors/main.go) | **エラーハンドリング & defer** | `error` インターフェース、`errors.Is` / `errors.As`、カスタムエラー型、`defer` の LIFO 順序 |
-| [`./03_interfaces`](file:///C:/Users/harun/programming/go/sample/03_interfaces/main.go) | **インターフェース & ジェネリクス** | 暗黙的インターフェース（ダックタイピング）、型アサーション、Type Switch、Go 1.18+ Generics (`[T any]`) |
-| [`./04_lambdas_and_closures`](file:///C:/Users/harun/programming/go/sample/04_lambdas_and_closures/main.go) | **無名関数 & クロージャ** | 即時実行無名関数 (IIFE)、状態保持クロージャ、Go 1.22+ ループ変数、`defer` での戻り値書き換え、Functional Options パターン、高階関数 |
-| [`main.go`](file:///C:/Users/harun/programming/go/sample/main.go) | **統合エントリーポイント** | 全モジュールを順番に一括実行するメインランナー |
+| [`./01_basics`](./01_basics/main.go) | **基本構文・型・関数** | 変数宣言3パターン、多値返却、`for` ループ、スライス vs 配列、`map`、ポインタと値渡し |
+| [`./02_errors`](./02_errors/main.go) | **エラーハンドリング & defer** | `error` インターフェース、`errors.Is` / `errors.As`、カスタムエラー型、`defer` の LIFO 順序 |
+| [`./03_interfaces`](./03_interfaces/main.go) | **インターフェース & ジェネリクス** | 暗黙的インターフェース（ダックタイピング）、型アサーション、Type Switch、Go 1.18+ Generics (`[T any]`) |
+| [`./04_lambdas_and_closures`](./04_lambdas_and_closures/main.go) | **無名関数 & クロージャ** | 即時実行無名関数 (IIFE)、状態保持クロージャ、Go 1.22+ ループ変数、`defer` での戻り値書き換え、Functional Options パターン、高階関数 |
+| [`main.go`](./main.go) | **統合エントリーポイント** | 全モジュールを順番に一括実行するメインランナー |
 
 > 📖 **Go言語 無名関数 & クロージャの完全理解ガイド**:  
-> なぜクロージャの変数はヒープに退避されるのか（エスケープ解析）、Go 1.22 の歴史的仕様変更、実務の Functional Options パターンまで完全網羅した解説は [**`LAMBDA.md`**](file:///C:/Users/harun/programming/go/sample/LAMBDA.md) を参照してください。
+> なぜクロージャの変数はヒープに退避されるのか（エスケープ解析）、Go 1.22 の歴史的仕様変更、実務の Functional Options パターンまで完全網羅した解説は [**`LAMBDA.md`**](./LAMBDA.md) を参照してください。
